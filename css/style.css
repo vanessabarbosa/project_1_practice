@@ -1,4 +1,48 @@
 body {
-    
-    background-color: white;
+   background-color: none;
+}
+
+#header {
+    width:100%;
+        background-color: beige;
+}
+
+#header > h1 {
+    margin:0;
+}
+
+#nav {
+    width:100%;
+    background-color:aqua;
+}
+
+.menu{
+    display:flex;
+    background:aliceblue;
+    justify-content: space-around;
+    list-style-type: none;
+    margin:0;
+}
+
+#middle-wrapper {
+        display: flex;
+}
+
+#main-content-wrapper {
+    background-color:greenyellow;
+    width: 80%;
+}
+
+#aside-content-wrapper { 
+    background-color:plum;
+    width:20%
+}
+
+footer {
+    background-color: coral;
+    margin: 0;
+}
+
+footer > h1 {
+    margin:0;
 }
